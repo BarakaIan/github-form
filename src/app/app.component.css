@@ -1,0 +1,12 @@
+h2{
+    color: hsl(0, 0%, 100%);
+}
+h1{
+    color: white;
+}
+.text-muted{
+    color: red;
+    text-decoration: rgb(179, 143, 143);
+    font-weight: 100px;
+    
+}
