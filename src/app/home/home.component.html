@@ -1,0 +1,33 @@
+<div class="container">
+    <app-form (findEmmiter)="findgitUser($event)"></app-form>
+    <!-- <div *ngFor="let user of user">
+        <p> username: {{user.name}}</p>
+        <img src="{{user.avatar_url}}" alt="">
+        <p>followers: {{user.followers}}</p>
+        <p>following: {{user.following}}</p>
+
+    </div>  -->
+    <!-- <div *ngFor="let repo of repo">
+        <p>name: {{repo.name}}</p>
+        <p>description: {{repo.description}}</p>
+        <p>languages: {{repo.language}}</p>
+    </div> -->
+
+<div *ngFor="let user of user">
+<div class="card" style="width: 18rem;">
+    <img src="{{user.avatar_url}}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">username: {{user.name}}</h5>
+      <p class="card-text">followers: {{user.followers}}</p>
+      <p class="card-text">following: {{user.following}}</p>
+      <a href="{{user.html_url}}" class="btn btn-primary">Github</a>
+    </div>
+  </div>
+  <div *ngFor="let repo of repo">
+    <p>name: {{repo.name}}</p>
+    <p>description: {{repo.description}}</p>
+    <p>languages: {{repo.language}}</p>
+</div>
+</div>
+
+</div>
