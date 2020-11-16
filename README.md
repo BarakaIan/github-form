@@ -3,13 +3,13 @@ Ian Baraka.
 ## Description.
 A web page that displays  quotes and their authors. 
 ### Link to live page
-https://github.com/BarakaIan/Quotes-App..git
+https://barakaian.github.io/github-form/
 
 #### Setup/Installation Requirements.
 
 -Log in your PC and open your Terminal and create a folder.
 -Clone this repo into the folder using command line below
--git clone(https://github.com/BarakaIan/Quotes-App..git)
+-git clone(https://barakaian.github.io/github-form/)
 -Open it in an editor "Atom, VScode" etc.
 -Contribute and push your changes to your repository.
 
